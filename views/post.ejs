@@ -1,0 +1,17 @@
+<%- include("./partials/header") %>
+
+    <div class="post-back">
+        <h1 class="glow">ALL INTERVIEW EXPERIENCES</h1>
+    </div>
+        
+        <% postArr.forEach(function(element){ %>
+            
+        <div class="container-post-up">
+            
+            <a href="/posts/<%= element.title %>"><h1> <%= element.title  %> </h1></a>
+            <p>  <%= element.content.substr(0,400) + "..."  %> <a style="color: blue;" href="/posts/<%= element.title %>">Read More</a> </p>
+            
+        </div>
+        <% }); %>
+        
+<%- include("./partials/footer") %>

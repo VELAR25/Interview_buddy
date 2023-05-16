@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blooger</title>
+
+    <!-- FONTS AWESOME ICONS-->
+    <link rel="stylesheet" href="./css/all.css">
+
+    <!---- OWL CAROUSEL --->
+    <link rel="stylesheet" href="/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/owl.theme.default.min.css">
+
+    <!-- CUSTOM STYLE -->
+    <link rel="stylesheet" href="../css/Styles.css">
+    <base href="/">
+</head>
+<body>
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn-log"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log-In</button>
+                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+            </div>
+            <form action="/login" method="POST" id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" name="log-user" required>
+                <input type="text" class="input-field" placeholder="Password" name="log-password" required>    
+                <button type="submit" class="submit-btn-log login-button">Log In</button>
+            </form>
+            <form action="/register" method="POST" id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" name="register-user" required>
+                <input type="text" class="input-field" placeholder="Email Id" name="register-email" required>
+                <input type="text" class="input-field" placeholder="Password" name="register-password" required>    
+                <button type="submit" class="submit-btn-log register-button">Register</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

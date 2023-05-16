@@ -1,0 +1,16 @@
+<%- include("./partials/header") %>
+
+    <div class="post-back">
+        <h1 class="glow">ALL INTERVIEW EXPERIENCES - <%= partic[0].title %></h1>
+    </div>
+
+    <% partic.forEach(function(post){ %>
+        
+        <div class="container-post-up">
+            <h1><%= post.title %></h1>
+            <p><%= post.content %></p>
+        </div>
+            
+    <% }) %>
+
+<% - include("./partials/footer") %>

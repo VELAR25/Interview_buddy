@@ -1,0 +1,24 @@
+<%- include("./partials/header"); %>
+
+<!-- ## PERFECT INDENTATION
+    ________________________________________________________________________________________________________________________
+-->
+
+
+<div class="compose-back">
+    <div  class="container-compose">
+        <form action="/compose" method="post" class="form-compose" >
+            <h1 style="display: flex; justify-content: center;" class="glow">COMPOSE</h1>
+            <label for="pTitle"><h2>ENTER THE TITLE</h2></label>
+            <input type="text" id="pTitle" name="postTitle" placeholder="Enter The Title of the Post">
+            <br>        
+            <br>
+            <label for="pContent"><h2>ENTER THE CONTENT</h2></label>
+            <textarea  id="pContent" name="postBody" rows="10" cols="200" placeholder="Enter Your Post" minlength="20" required></textarea>     
+            <br>
+            <br>
+            <button class="compose-btn btn">SUBMIT NOW</button>
+        </form>
+    </div>
+</div>
+

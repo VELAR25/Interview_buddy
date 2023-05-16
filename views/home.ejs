@@ -1,0 +1,288 @@
+<!-- USING EJS WE ARE INCLUDEING THE HEADER -->
+
+<%- include("./partials/header"); %>
+
+
+
+
+<!-------------- MAIN SITE SECTION  ---------------->
+<main>
+    <!---------- SITE TITLE ---------->
+        <section class="site-title">
+            <div class="site-background">
+                <h3>I’m not a great programmer ; I’m just a good programmer with great habits.</h3>
+                <h1 style="margin:8px ;">EXPLORE THE CODING INTERVIEWS</h1>
+                <button class="btn">Explore</button>
+            </div>
+        </section>
+    <!----x----- SITE TITLE -----x---->
+
+    <!--------- BLOG CAROUSEL -------->
+        <section>
+            <div class="blog">
+                <div class="container">
+                    <div class="owl-carousel owl-theme blog-post">
+                        <div class="blog-content">
+                            <img style="height: 15rem;" src="../assets/company/expedia.jpg" alt="post-4">
+                            <div class="blog-title">
+                                <h3>EXPEDIA</h3>
+                                <button class="btn btn-blog"><a href="/posts/EXPEDIA">EXPLORE</a></button>
+                            </div>
+                        </div>
+
+                        <div class="blog-content">
+                            <img style="height: 15rem;" src="../assets/company/de_shaw.jpg" alt="post-4">
+                            <div class="blog-title">
+                                <h3>DE SHAW</h3>
+                                <button class="btn btn-blog"><a href="/posts/DE-SHAW">EXPLORE</a></button>
+                            </div>
+                        </div>
+                        
+                        <div class="blog-content">
+                            <img src="../assets/company/microsoft.jpeg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>MICROSOFT</h3>
+                                <button class="btn btn-blog"><a href="/posts/MICROSOFT">EXPLORE</a></button>
+                            </div>
+                        </div>
+                        
+                        <div class="blog-content">
+                            <img src="../assets/company/amazon.jpg" alt="post-2">
+                            <div class="blog-title">
+                                <h3>AMAZON</h3>
+                                <button class="btn btn-blog"><a href="/posts/AMAZON">EXPLORE</a></button>
+                            </div>
+                        </div>
+                        
+                        <div class="blog-content">
+                            <img style="height: 15rem;" src="../assets/company/google.jpg" alt="post-3">
+                            <div class="blog-title">
+                                <h3>GOOGLE</h3>
+                                <button class="btn btn-blog"><a href="/posts/GOOGLE">EXPLORE</a></button>
+                            </div>
+                        </div>
+                        
+                        <div class="blog-content">
+                            <img style="height: 15rem;" src="../assets/company/meta.jpeg" alt="post-4">
+                            <div class="blog-title">
+                                <h3>META</h3>
+                                <button class="btn btn-blog"><a href="/posts/META">EXPLORE</a></button>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+                    <div class="owl-navigation">
+                        <span class="owl-nav-prev"><i class="fas fa-long-arrow-alt-left"></i></span>
+                        <span class="owl-nav-next"><i class="fas fa-long-arrow-alt-right"></i></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!----x---- BLOG CAROUSEL ---x---->
+        
+    <!--------- SITE CONTENT -------->
+        
+    <section class="container">
+        <div class="site-content">
+            <div class="posts">
+                <div class="post-content">
+                    <div class="post-image">
+                        <div>
+                            <img src="./assets/company/expedia.jpg" class="img expedia" alt="blog1">
+                        </div>
+                        <div class="post-info flex-row">
+                            <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin&nbsp;&nbsp;</span>
+                            <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;November 15,2022</span>
+                        </div>
+                    </div>  
+                    <div class="post-title">
+                        <a href="/posts/EXPEDIA">EXPEDIA</a>
+                        <p>Expedia Group, Inc. is an American online travel shopping company for consumer and small business travel.[2] Its websites, which are primarily travel fare aggregators and travel metasearch engines, include Expedia.com, Vrbo (previously HomeAway), Hotels.com, Hotwire.com, Orbitz, Travelocity, trivago and CarRentals.com</p>
+                        <button  class="btn post-btn"><a style="font-size:larger" href="/posts/EXPEDIA">Read More &nbsp; </a><i class="fas fa-arrow-right"></i></button>
+                    </div>  
+                </div>
+                <hr>
+                <div class="post-content">
+                    <div class="post-image">
+                        <div>
+                            <img src="./assets/company/amazon3.jpg" class="img" alt="blog2">
+                        </div>
+                        <div class="post-info flex-row">
+                            <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin&nbsp;&nbsp;</span>
+                            <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;November 10,2022</span>
+                        </div>
+                    </div>  
+                    <div class="post-title">
+                        <a href="/posts/AMAZON">AMAZON</a>
+                        <p>As a Software Development Engineer at Amazon, one will be responsible for building software that would be feasible to use across different computers. Amazon Software Development Engineers are at times required to invent, build or break a system to make them faster and more cost-effective. They would also be required to design application components and codes from scratch.</p>
+                        <button class="btn post-btn"><a style="font-size:larger" href="/posts/AMAZON">Read More &nbsp; </a><i class="fas fa-arrow-right"></i></button>
+                    </div>  
+                </div>
+                <hr>
+                <div class="post-content">
+                    <div class="post-image">
+                        <div>
+                            <img src="./assets/company/salesforce.jpg" class="img" alt="blog3">
+                        </div>
+                        <div class="post-info flex-row">
+                            <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin&nbsp;&nbsp;</span>
+                            <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;November 15,2022</span>
+                        </div>
+                    </div>  
+                    <div class="post-title">
+                        <a href="/posts/SALESFORCE">SALESFORCE</a>
+                        <p>Salesforce, Inc. is an American cloud-based software company headquartered in San Francisco, California. It provides customer relationship management software and applications focused on sales, customer service, marketing automation, analytics, and application development.</p>
+                        <button class="btn post-btn"><a style="font-size:larger" href="/posts/SALESFORCE">Read More &nbsp; </a><i class="fas fa-arrow-right"></i></button>
+                    </div>  
+                </div>
+                <hr>
+                <div class="post-content">
+                    <div class="post-image">
+                        <div>
+                            <img style="height: 35rem;" src="./assets/company/google2.jpg" class="img" alt="blog4">
+                        </div>
+                        <div class="post-info flex-row">
+                            <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin&nbsp;&nbsp;</span>
+                            <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;November 01,2022</span>
+                        </div>
+                    </div>  
+                    <div class="post-title">
+                        <a href="/posts/GOOGLE">GOOGLE</a>
+                        <p>Working at Google is a dream for many software engineers. While the job comes with many perks and a lucrative salary and benefits, it is also important to know what exactly the role of a software engineer entails. Understanding the role will help you plan your interview prep.</p>
+                        <button class="btn post-btn"><a style="font-size:larger" href="/posts/GOOGLE">Read More &nbsp;</a><i class="fas fa-arrow-right"></i></button>
+                    </div>  
+                </div>
+
+                <!-- PAGINATION IS COMMENTED (! NOT IMPORTANT) -->
+                <!-- <div class="pagination flex-row">
+                    <a href="#"><i class="fas fa-chevron-left"></i></a>
+                    <a href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#"><i class="fas fa-chevron-right"></i></a>
+                </div> -->
+            </div>
+            <aside class="sidebar">
+                <div class="category" id="my-category">
+                    <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CATEGORY</h2>
+                    <ul class="category-list">
+                        <li class="list-items">
+                            <a href="/posts/GOOGLE">GOOGLE</a>
+                        </li>
+                        <li class="list-items">
+                            <a href="/posts/MICROSOFT">MICROSOFT</a>
+                        </li>
+                        <li class="list-items">
+                            <a href="/posts/DE-SHAW">DE SHAW</a>
+                        </li>
+                        <li class="list-items">
+                            <a href="/posts/EXPEDIA">EXPEDIA</a>
+                        </li>
+                        <li class="list-items">
+                            <a href="/posts/META">META</a>
+                        </li>
+                        <li class="list-items">
+                            <a href="/posts/AMAZON">AMAZON</a>
+                        </li>
+                        <li class="list-items">
+                            <a href="/posts/ARCESIUM">ARCESIUM</a>
+                        </li>
+                        <li class="list-items">
+                            <a href="/posts/GOLDMAN-SACHS">GOLDMAN SACHS</a>
+                        </li>
+                        <li class="list-items">
+                            <a href="/posts/WELLS-FARGO">WELLS FARGO</a>
+                        </li>
+                        <li class="list-items">
+                            <a href="/posts/ADOBE">ADOBE</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="popular-post">
+                    <h2>&nbsp;&nbsp;&nbsp;&nbsp;POPULAR POST</h2>
+                    <div class="post-content">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/company/wells.jpeg" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;November 15,2022</span>
+                                </div>
+                            </div>  
+                            <div style="display:flex ; justify-content:center" class="post-title">
+                                <a href="/posts/WELLS-FARGO">WELLS FARGO</a>
+                            </div>  
+                            <hr>
+                        </div>
+                    <div class="post-content">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/company/amazon2.jpg" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;November 15,2022</span>
+                                </div>
+                            </div>  
+                            <div style="display:flex ; justify-content:center" class="post-title">
+                                <a href="/posts/AMAZON">AMAZON</a>
+                            </div>  
+                            <hr>
+                        </div>
+                    <div class="post-content">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/company/intuit.jpg" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;November 15,2022</span>
+                            </div>
+                        </div>  
+                        <div style="display:flex ; justify-content:center" class="post-title">
+                            <a href="/posts/INTUIT">INTUIT</a>
+                        </div>  
+                        <hr>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-image">
+                            <div>
+                                <img style="height: 15rem;" src="./assets/company/meta.jpeg" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;November 15,2022</span>
+                            </div>
+                        </div>  
+                        <div style="display:flex ; justify-content:center" class="post-title">
+                            <a href="/posts/META">META</a>
+                        </div>  
+                        <hr>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/company/apple.jpg" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;November 15,2022</span>
+                            </div>
+                        </div>  
+                        <div style="display:flex ; justify-content:center" class="post-title">
+                            <a href="/posts/APPLE">APPLE</a>
+                        </div>  
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+    <!--------- SITE CONTENT -------->
+</main>
+
+<!------x------- MAIN SITE SECTION  --------x------->
+
+
+
+
+
+
+<!-- USING EJS WE ARE INCLUDING THE FOOTER -->
+<%- include("./partials/footer"); %>

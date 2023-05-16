@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blooger</title>
+
+    <!-- FONTS AWESOME ICONS-->
+    <link rel="stylesheet" href="./css/all.css">
+
+    <!---- OWL CAROUSEL --->
+    <link rel="stylesheet" href="/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/owl.theme.default.min.css">
+
+    <!-- CUSTOM STYLE -->
+    <link rel="stylesheet" href="../css/Styles.css">
+    <base href="/">
+</head>
+<body>
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn-log"></div>
+                <button type="button" class="toggle-btn" ><a href="login">Log-In</a></button>
+                <button type="button" class="toggle-btn" ><a href="register">Register</a></button>
+            </div>
+            <form action="/login" method="POST" id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="Email Id" name="username" required>
+                <input type="text" class="input-field" placeholder="Password" name="password" autocomplete="off" required>    
+                <button type="submit" class="submit-btn-log login-button">Log In</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
